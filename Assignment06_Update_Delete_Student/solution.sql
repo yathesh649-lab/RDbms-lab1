@@ -1,11 +1,6 @@
--- Create database if required
-
--- Create Student table
-
--- Insert sample records
-
--- Update Karthik's DepartmentID
-
--- Delete StudentID 1002
-
--- Display all records
+UPDATE Student
+SET DepartmentID = 103
+WHERE StudentID = 1003;
+delete from student
+WHERE StudentID = 1002
+SELECT * FROM Student;
